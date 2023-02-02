@@ -1,0 +1,12 @@
+#logotipo {
+    background-color: green;width: 280px;float: left;
+}
+#publicidad {
+    background-color: pink;width: 518px;float: right; margin-top: 25px;
+}
+#cabecera {
+    background-color: white;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+    height: 300;
+}

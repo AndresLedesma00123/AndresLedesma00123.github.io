@@ -1,0 +1,92 @@
+<DOCTYPE html>
+<html lang="ES">
+    <head>
+        <title>Práctica de listas y tablas</title>
+        <style>
+            table, th, td {
+                border:1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Esta es una práctica de listas y tablas</h1>
+        </header>
+        <main>
+            <section>
+                <h2>Lista no ordenada</h2>
+                <ul>
+                    <li>Este es un elemento 1 de la lista</li>
+                    <li>Este es un elemento 2 de la lista</li>
+                    <li>Este es un elemento 3 de la lista</li>
+                    <li>Este es un elemento 4 de la lista</li>
+                    <li>Este es un elemento 5 de la lista</li>
+                    <li>Este es un elemento 6 de la lista</li>
+                </ul>
+                <h2>Lista ordenada</h2>
+                <ol>
+                    <li>Este es un elemento 1 de la lista</li>
+                    <li>Este es un elemento 2 de la lista</li>
+                        <ol>
+                            <li style="list-style-type: lower-alpha;">Este es un sub elemento 1</li>
+                            <li style="list-style-type: lower-alpha;">Este es un sub elemento 2</li>
+                            <li style="list-style-type: lower-alpha;">Este es un sub elemento 3</li>
+                            <li style="list-style-type: lower-alpha;">Este es un sub elemento 4</li>
+                            <li style="list-style-type: lower-alpha;">Este es un sub elemento 5</li>
+                        </ol>
+                    <li>Este es un elemento 3 de la lista</li>
+                    <li>Este es un elemento 4 de la lista</li>
+                        <ol>
+                        <li style="list-style-type: upper-alpha;">Este es un sub elemento 1</li>
+                        <li style="list-style-type: upper-alpha;">Este es un sub elemento 2</li>
+                        <li style="list-style-type: upper-alpha;">Este es un sub elemento 3</li>
+                        <li style="list-style-type: upper-alpha;">Este es un sub elemento 4</li>
+                        <li style="list-style-type: upper-alpha;">Este es un sub elemento 5</li>
+                        </ol>
+                    <li>Este es un elemento 5 de la lista</li>
+                    <li>Este es un elemento 6 de la lista</li>
+                </ol>
+            </section>
+            <hr>
+            <h2>Tablas</h2>
+            <section>
+                <table style="width: 400px;">
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Valoraciones</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Manzana</td>
+                            <td>7/10</td>
+                            <td>Gs.3500</td>
+                        </tr>
+                        <tr>
+                            <td>Naranja</td>
+                            <td>5/10</td>
+                            <td>Gs.4500</td>
+                        </tr>
+                        <tr>
+                            <td>Piña</td>
+                            <td>8/10</td>
+                            <td>Gs.8000</td>
+                        </tr>
+                        <tr>
+                            <td>Sandía</td>
+                            <td>9/10</td>
+                            <td>Gs.15000</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <td></td>
+                        <td></td>
+                        <td>Total: Gs.31000</td>
+                    </tfoot>
+                </table>
+            </section>
+        </main>
+    </body>
+</html>
