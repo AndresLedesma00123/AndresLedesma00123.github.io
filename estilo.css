@@ -1,17 +1,80 @@
+html {
+    font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+}
 body {
+    margin: 0;
+    background-color: white;
+}
+header {
+    display: flex;
+    background-color: rgb(139, 44, 0);
+    color: white;
+    font-weight: 700;
+    padding: 0 1rem;
+    align-items: center;
+}
+header a {
+    transition: color 0.2s ease;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    margin: 0 2rem;
+}
+.agrupar {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    padding: 0.4rem;
+}
+section {
+    width: 60%;
+    float: left;
+}
+aside {
+    width: 25%;
+    background-color: rgb(139, 44, 0);
+    color: white;
+    border-radius: 10px;
+    float: right;
+    padding: 2rem;
+    transition: box-shadow 0.2s ease;
+}
+aside:hover {
+    box-shadow: 0 0.5rem 0.7rem rgb(0,0,0,0.4);
+}
+footer {
+    clear: both;
+    text-align: center;
+    color: white;
+    padding: 2rem 3rem;
+    background-color: rgb(139, 44, 0);
+}
+footer a {
+    transition: color 0.2s ease;
+    color: white;
+    text-decoration: none;
+}
+a {
+    color: black;
+}
+header a:hover, footer a:hover {
+    color: rgb(255, 142, 142);
+}
+
+
+
+/* body {
     background-color: rgb(232, 250, 244);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0px 0px 0 0px;
-    font-size: 18px;
-    font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(29, 45, 65);
+    margin: 0px 20px auto 40px;
 }
 #agrupar{
     display: block;
-    margin: auto 50px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(29, 45, 65);
 }
-
 h2 {
     font-size: 22px;
 }
@@ -20,10 +83,10 @@ a {
 }
 header {
     display: flex;
-    font-size: 4rem;
     min-height: 100px;
     background-color: rgb(109, 164, 226);
-    padding: 1rem 1rem;
+    padding: 10px;
+    border-radius: 10px;
     align-items: center;
     justify-content: space-between;
 }
@@ -33,7 +96,7 @@ header {
 #logo img {
     border-radius: 15px;
     height: 100px;
-    padding: 10px auto;
+    margin-right: 10px;
 }
 nav a {
     font-size: 25px;
@@ -78,4 +141,4 @@ footer {
     padding-top: 70px;
     clear: both;
     text-align: center;
-}
+} */
