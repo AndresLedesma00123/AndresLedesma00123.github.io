@@ -28,7 +28,7 @@ header h1 {
     margin: 0 auto;
 }
 section article {
-    transition: box-shadow 0.3s ease;
+    transition: all 0.3s ease;
     background-color: white;
     margin: 1rem 0; /*Solo margen vertical para que las imágenes toquen el borde*/
     border-radius: 0.5rem;
@@ -40,6 +40,7 @@ section article h2, section article p {
 section div article:hover {
     box-shadow: 0 0.1rem 0.4rem rgb(0,0,0,0.4); /*el cuarto número marca la opacidad*/
     cursor: pointer;
+    transform: scale(1.05);
 }
 footer {
     background-color: #222;
