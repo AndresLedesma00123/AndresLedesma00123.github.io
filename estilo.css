@@ -31,10 +31,10 @@ header img{
 section {
     width: 60%;
     float: left;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 aside {
-    width: 18rem;
+    width: 15rem;
     background-color: rgb(7, 30, 59);
     color: white;
     border-radius: 10px;

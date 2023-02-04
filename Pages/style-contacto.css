@@ -25,7 +25,7 @@ header img{
 }
 section {
     margin-top: 4rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
     font-size: 1.1rem;
     float: left;
     min-height: 30rem;
@@ -33,7 +33,7 @@ section {
 }
 aside {
     margin-top: 4rem;
-    width: 18rem;
+    width: 15rem;
     margin-right: 50px;
     background-color: rgb(7, 30, 59);
     color: white;
