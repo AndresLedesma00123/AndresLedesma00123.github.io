@@ -31,18 +31,20 @@ header img{
 section {
     width: 60%;
     float: left;
+    margin-bottom: 3rem;
 }
 aside {
-    width: 25%;
+    width: 18rem;
     background-color: rgb(7, 30, 59);
     color: white;
     border-radius: 10px;
     float: right;
     padding: 2rem;
-    transition: box-shadow 0.2s ease;
+    transition: all 0.2s ease;
 }
 aside:hover {
     box-shadow: 0 0.5rem 0.7rem rgb(0,0,0,0.4);
+    transform: scale(1.03);
 }
 footer {
     clear: both;

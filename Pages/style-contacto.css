@@ -1,0 +1,70 @@
+html {
+    font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    margin: 0;
+    background-color: white;
+}
+header {
+    display: flex;
+    background-color: rgb(3, 15, 31);
+    color: white;
+    font-weight: 700;
+    padding: 0 1rem;
+    align-items: center;
+}
+header a {
+    transition: color 0.2s ease;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    margin: 0 2rem;
+}
+header img{
+    transition: transform 0.2s ease;
+}
+section {
+    margin-top: 4rem;
+    margin-left: 3rem;
+    font-size: 1.1rem;
+    float: left;
+    min-height: 30rem;
+    margin-bottom: 3rem;
+}
+aside {
+    margin-top: 4rem;
+    width: 18rem;
+    margin-right: 50px;
+    background-color: rgb(7, 30, 59);
+    color: white;
+    border-radius: 10px;
+    float: right;
+    padding: 2rem;
+    transition: all 0.2s ease;
+}
+aside:hover {
+    box-shadow: 0 0.5rem 0.7rem rgb(0,0,0,0.4);
+    transform: scale(1.03);
+}
+footer {
+    clear: both;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    margin-bottom: 0;
+    background-color: rgb(3, 15, 31);
+}
+footer a {
+    transition: color 0.2s ease;
+    color: white;
+    text-decoration: none;
+}
+a {
+    color: black;
+}
+header a:hover, footer a:hover {
+    color: rgb(30, 108, 145);
+}
+header img:hover {
+    transform:scale(1.2);
+}
