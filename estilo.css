@@ -23,6 +23,9 @@ header a {
 header img{
     transition: transform 0.2s ease;
 }
+article ul li, nav ol li {
+    margin: 2rem 0;
+}
 .agrupar {
     margin: 0 3rem;
     font-size: 1.1rem;
@@ -40,8 +43,9 @@ aside {
     color: white;
     border-radius: 10px;
     float: right;
-    padding: 2rem;
+    padding: 0.5rem 2rem;
     transition: all 0.2s ease;
+    margin-top: 2rem;
 }
 aside:hover {
     box-shadow: 0 0.5rem 0.7rem rgb(0,0,0,0.4);
