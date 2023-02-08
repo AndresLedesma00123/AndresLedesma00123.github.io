@@ -1,0 +1,94 @@
+html {
+    font-family: "Dosis", Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    margin: 0;
+    margin-bottom: 50px;
+    display: block;
+    background-color: #efefee;
+}
+header h1{
+    margin-top: 0;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: #fff;
+    padding: 20px;
+}
+section {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+form {
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+label {
+    padding: 10px;
+    color: white;
+}
+input {
+    transition: all 0.2s ease;
+    padding: 10px;
+    margin: 10px 0;
+    width: 70%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px rgba(0,0,0,0.3) ;
+}
+input:hover {
+    transform: scale(1.03);
+}
+.botones {
+    margin-top: 10px;
+}
+.botones button {
+    transition: all 0.2s ease;
+    margin: 0 10px;
+}
+.enviar {
+    background-color: #00ff00;
+    color: white;
+    width: 80px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    height: 40px;
+}
+.enviar:hover {
+    transform: scale(1.2);
+}
+.cancelar {
+    background-color: #999999;
+    color: white;
+    width: 80px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    height: 40px;
+}
+.cancelar:hover {
+    transform: scale(1.2);
+}
+table {
+    margin: 0 auto;
+    width: 60%;
+}
+table, th, tr, td{  /*Esto está dentro de Section, es por eso que no hace falta centrar los contenidos*/
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    transition: all 0.05s ease;
+}
+table th {
+    background-color: cornflowerblue;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #dbdbdb;
+}
+tr:hover {
+    background-color: rgb(189, 210, 250);
+}
