@@ -8,6 +8,7 @@ body {
     background-color: #efefee;
 }
 header h1{
+    width: 100%;
     margin-top: 0;
     text-align: center;
     background-color: cornflowerblue;
