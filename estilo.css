@@ -3,11 +3,11 @@ html {
 }
 body {
     margin: 0;
-    background-color: #E5DFDF;
+    background-color: #f7f5f0;
 }
 header {
     display: flex;
-    background-color: #1D4D4F;
+    background-color: #00334E;
     color: white;
     font-weight: 700;
     padding: 0 1rem;
@@ -39,7 +39,7 @@ section {
 }
 aside {
     width: 15rem;
-    background-color: #357376;
+    background-color: #145374;
     color: white;
     border-radius: 10px;
     float: right;
@@ -57,7 +57,7 @@ footer {
     color: white;
     padding: 2rem;
     margin-bottom: 0;
-    background-color: #1D4D4F;
+    background-color: #495464;
 }
 footer a {
     transition: color 0.2s ease;
