@@ -3,11 +3,11 @@ html {
 }
 body {
     margin: 0;
-    background-color: #F0E9D2;
+    background-color: #E5DFDF;
 }
 header {
     display: flex;
-    background-color: #181D31;
+    background-color: #1D4D4F;
     color: white;
     font-weight: 700;
     padding: 0 1rem;
@@ -39,7 +39,7 @@ section {
 }
 aside {
     width: 15rem;
-    background-color: #678983;
+    background-color: #357376;
     color: white;
     border-radius: 10px;
     float: right;
@@ -57,7 +57,7 @@ footer {
     color: white;
     padding: 2rem;
     margin-bottom: 0;
-    background-color: #181D31;
+    background-color: #1D4D4F;
 }
 footer a {
     transition: color 0.2s ease;
@@ -68,7 +68,7 @@ a {
     color: black;
 }
 header a:hover, footer a:hover {
-    color: rgb(30, 108, 145);
+    color: rgb(107, 168, 169);
 }
 header img:hover {
     transform:scale(1.2);
