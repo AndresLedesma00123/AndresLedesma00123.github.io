@@ -1,6 +1,6 @@
 html {
     font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 body {
     margin: 0;
@@ -11,20 +11,19 @@ header {
     background-color: #001825;
     color: white;
     font-weight: 700;
-    padding: 0;
     align-items: center;
-    float: left;
+    display: grid;
+    grid-template-columns: 20% auto;
 }
 header a {
     transition: color 0.2s ease;
     text-decoration: none;
     color: white;
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin: 0 2rem;
 }
 header img{
-    transition: transform 0.2s ease;
-    float: left;
+    transition: 0.2s ease;
     padding-left: 15px;
 }
 .grid-layout {
@@ -32,7 +31,6 @@ header img{
     padding: 0.4rem;
     display: grid;
     grid-template-columns: 70% auto;
-    grid-template-rows: auto auto auto auto;
 }
 article ul li, nav ol li {
     margin: 2rem 0;
@@ -48,6 +46,8 @@ article ul li, nav ol li {
     grid-column: 1/3;
 }
 aside div {
+    min-height: 30rem;
+    max-height: 40rem;
     background-color: #002031;
     color: white;
     border-radius: 10px;
@@ -166,4 +166,4 @@ footer {
 
 colores: rgb(139, 44, 0) 
 
-*/
+*/ */
