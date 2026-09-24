@@ -6,6 +6,7 @@ body {
     margin: 0;
     width: 100%;
     text-align: justify;
+    background-color: rgb(232, 255, 247);
 }
 .grid-layout {
     display: grid;

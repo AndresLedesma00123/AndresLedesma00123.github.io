@@ -4,6 +4,7 @@ html {
 }
 body {
     margin: 0;
+    background-color: rgb(255, 220, 220);
 }
 header {
     background-color: #7e0000;
